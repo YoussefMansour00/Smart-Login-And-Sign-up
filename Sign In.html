@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="stylesheet" href="Css/media.css" />
+    <title>Login Me</title>
+  </head>
+  <body>
+    <section>
+      <div id="signInForm" class="m-auto p-5 mt-5">
+        <h1 class="text-center">Smart Login System</h1>
+        <input
+          id="nameSignUpInput"
+          type="text"
+          class="w-100 p-2 mt-3"
+          placeholder="Enter Your name"
+        />
+        <input
+        id="signUpEmail"
+          type="text"
+          class="w-100 p-2 mt-2"
+          placeholder="Enter Your email"
+        />
+        <p id="alertParaEmail" class="alert alert-danger text-center d-none">Not Valid Email</p>
+        <input
+          id="SignUpPasss"
+          type="text"
+          class="w-100 p-2 mt-2"
+          placeholder="Enter Your password"
+        />
+        <p id="alertPara" class="alert alert-danger text-center d-none">Not Valid Data</p>
+        <button id="signUpButton" class="btn btn-dark w-100 mt-4">Sign Up</button>
+        <div class="d-flex justify-content-center mt-3">
+            <p class="text-center">Do you have an account?</p>
+            <a class="ms-2" href="index.html">Sign In</a>
+        </div>
+      </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
